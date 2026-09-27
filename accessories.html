@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>RiderX - Accessories</title>
+
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🏍️ Rider<span>X</span>
+    </div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li>
+            <a class="active" href="accessories.html">
+                Accessories
+            </a>
+        </li>
+
+        <li>
+            <a href="helmets.html">
+                Helmets
+            </a>
+        </li>
+
+        <li>
+            <a href="about.html">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+</header>
+
+
+<section class="page-header">
+
+    <h1>Bike Accessories</h1>
+
+    <p>
+        Upgrade your motorcycle with quality accessories.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+<div class="search-box">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search accessories..."
+        onkeyup="searchProducts()"
+    >
+
+</div>
+
+
+<div class="product-grid" id="productGrid">
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        🧤
+    </div>
+
+    <div class="product-info">
+
+        <h3>Riding Gloves</h3>
+
+        <p>
+            Comfortable protective gloves
+            for everyday riding.
+        </p>
+
+        <div class="price">₹899</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('Riding Gloves')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        💡
+    </div>
+
+    <div class="product-info">
+
+        <h3>LED Bike Light</h3>
+
+        <p>
+            Powerful LED light for night rides.
+        </p>
+
+        <div class="price">₹699</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('LED Bike Light')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        🎒
+    </div>
+
+    <div class="product-info">
+
+        <h3>Rider Backpack</h3>
+
+        <p>
+            Waterproof backpack for long rides.
+        </p>
+
+        <div class="price">₹1,299</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('Rider Backpack')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        📱
+    </div>
+
+    <div class="product-info">
+
+        <h3>Phone Holder</h3>
+
+        <p>
+            Strong handlebar mobile holder.
+        </p>
+
+        <div class="price">₹499</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('Phone Holder')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        🔒
+    </div>
+
+    <div class="product-info">
+
+        <h3>Bike Lock</h3>
+
+        <p>
+            Heavy-duty security lock.
+        </p>
+
+        <div class="price">₹799</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('Bike Lock')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="product-card">
+
+    <div class="product-image">
+        🥽
+    </div>
+
+    <div class="product-info">
+
+        <h3>Riding Goggles</h3>
+
+        <p>
+            Clear vision and UV protection.
+        </p>
+
+        <div class="price">₹599</div>
+
+        <button
+            class="buy-btn"
+            onclick="addCart('Riding Goggles')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🏍️ RiderX
+    </div>
+
+    <p>
+        Your trusted destination for bike accessories.
+    </p>
+
+    <p class="copyright">
+        © 2026 RiderX. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="js.js"></script>
+
+</body>
+</html>
